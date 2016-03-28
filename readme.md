@@ -11,11 +11,15 @@ ln -s ~/Dropbox/Code/settings/.bash_profile ~/
 
 ```
 
-## Sublime user preferences
+## Sublime user preferences and key mappings
 
-Move to repo and symlink.
+Move files to repo and symlink back to Sublime directory:
 
 ```
 mv ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings ~/Dropbox/Code/settings/
 ln -s ~/Dropbox/Code/settings/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+
+mv ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Default\ \(OSX\).sublime-keymap ~/Dropbox/Code/settings/
+ln -s ~/Dropbox/Code/settings/Default\ \(OSX\).sublime-keymap  ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Default\ \(OSX\).sublime-keymap
 ```
+
