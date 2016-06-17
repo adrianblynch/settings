@@ -1,13 +1,22 @@
 {
 	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		"web/bundle.js",
+		"coverage.html",
+		"*.js.map"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		"node_modules"
+	],
+	"font_size": 11,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
-	"trim_trailing_white_space_on_save": true,
-	"folder_exclude_patterns": [
-		".svn",
-		".git",
-		"node_modules"
-	]
+	"scroll_past_end": true,
+	"trim_trailing_white_space_on_save": true
 }
