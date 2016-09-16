@@ -1,3 +1,4 @@
 [
-	{ "keys": ["§"], "command": "insert_snippet", "args": { "contents": "console.log(${0:${TM_SELECTED_TEXT}})"}}
+	{ "keys": ["§"], "command": "insert_snippet", "args": { "contents": "console.log(${0:${TM_SELECTED_TEXT}})"}},
+	{ "keys": ["super+§"], "command": "insert_snippet", "args": { "contents": "console.log(JSON.stringify(${0:${TM_SELECTED_TEXT}}, null, 2))"}}
 ]
