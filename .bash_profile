@@ -1,4 +1,4 @@
-export PS1="\A> "
+export PS1="\t> "
 
 export HISTCONTROL=ignoreboth:erasedups
 
